@@ -2,7 +2,7 @@
     "github-summary@paulonet.eu": {
 	"digest:sunday": {
 	    "eventFilter": {
-                "notlabel": [ ],
+                "notlabel": []
 	    },
 	    "repos": [
 		"Domain-Connect/Templates",
