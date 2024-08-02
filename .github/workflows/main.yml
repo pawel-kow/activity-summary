@@ -29,8 +29,8 @@ jobs:
     - name: run github-notify-ml
       env:
         GH_OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SMTP_HOST: smtp.fastmail.com
-        SMTP_USERNAME: mnot@mnot.net
+        SMTP_HOST: smtp.ionos.de
+        SMTP_USERNAME: test_user@paulonet.eu
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SMTP_SSL: TRUE
       run: |
