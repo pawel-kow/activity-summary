@@ -10,5 +10,16 @@
 	    ],
 	    "topic": "Domain Connect repo activity report"
 	}
+    },
+    "nisfits@centrlists.org": {
+	"digest:sunday": {
+	    "eventFilter": {
+                "notlabel": []
+	    },
+	    "repos": [
+		"CENTRprojects/NISFITS"
+	    ],
+	    "topic": "NISFITS repo activity report"
+	}
     }
 }
