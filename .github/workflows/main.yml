@@ -29,7 +29,8 @@ jobs:
         cp config.json mls.json github-notify-ml/instance/
     - name: run github-notify-ml
       env:
-        GH_OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GH_OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_OAUTH_TOKEN: ${{ secrets.GH_PRIVATE_TOKEN }}
         SMTP_HOST: smtp.ionos.de
         SMTP_USERNAME: test_user@paulonet.eu
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
