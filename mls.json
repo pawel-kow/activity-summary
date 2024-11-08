@@ -21,5 +21,32 @@
 	    ],
 	    "topic": "NISFITS repo activity report"
 	}
+    },
+    "rpp@paulonet.eu": {
+        "digest:sunday": {
+            "eventFilter": {
+                "notlabel": [
+                    "editorial", "Editorial"
+                ]
+            },
+            "repos": [
+                "SIDN/ietf-wg-rpp-charter",
+				"SIDN/ietf-epp-restful-json",
+				"SIDN/ietf-epp-restful-transport"    
+            ],
+            "topic": "RPP Weekly GitHub Activity Summary"
+        },
+	    "SIDN/ietf-wg-rpp-charter": {
+	      "events": [
+	        "issues.opened",
+	        "issues.closed",
+	        "issue_comment.created",
+	        "pull_request.opened"
+	      ],
+	      "branches": {
+	        "main": ["push"]
+	      }
+	    }
+	  }
     }
 }
