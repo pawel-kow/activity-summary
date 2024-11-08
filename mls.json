@@ -1,52 +1,54 @@
 {
-    "github-summary@paulonet.eu": {
-	"digest:sunday": {
-	    "eventFilter": {
-                "notlabel": []
-	    },
-	    "repos": [
-		"Domain-Connect/Templates",
-		"Domain-Connect/spec"
-	    ],
-	    "topic": "Domain Connect repo activity report"
-	}
-    },
-    "nisfits@centrlists.org": {
-	"digest:sunday": {
-	    "eventFilter": {
-                "notlabel": []
-	    },
-	    "repos": [
-		"CENTRprojects/NISFITS"
-	    ],
-	    "topic": "NISFITS repo activity report"
-	}
-    },
-    "rpp@paulonet.eu": {
-        "digest:sunday": {
-            "eventFilter": {
-                "notlabel": [
-                    "editorial", "Editorial"
-                ]
-            },
-            "repos": [
-                "SIDN/ietf-wg-rpp-charter",
-				"SIDN/ietf-epp-restful-json",
-				"SIDN/ietf-epp-restful-transport"    
-            ],
-            "topic": "RPP Weekly GitHub Activity Summary"
-        },
-	    "SIDN/ietf-wg-rpp-charter": {
-	      "events": [
-	        "issues.opened",
-	        "issues.closed",
-	        "issue_comment.created",
-	        "pull_request.opened"
-	      ],
-	      "branches": {
-	        "main": ["push"]
-	      }
-	    }
-	  }
+  "github-summary@paulonet.eu": {
+    "digest:sunday": {
+      "eventFilter": {
+        "notlabel": []
+      },
+      "repos": [
+        "Domain-Connect/Templates",
+        "Domain-Connect/spec"
+      ],
+      "topic": "Domain Connect repo activity report"
     }
+  },
+  "nisfits@centrlists.org": {
+    "digest:sunday": {
+      "eventFilter": {
+        "notlabel": []
+      },
+      "repos": [
+        "CENTRprojects/NISFITS"
+      ],
+      "topic": "NISFITS repo activity report"
+    }
+  },
+  "rpp@paulonet.eu": {
+    "digest:sunday": {
+      "eventFilter": {
+        "notlabel": [
+          "editorial",
+          "Editorial"
+        ]
+      },
+      "repos": [
+        "SIDN/ietf-wg-rpp-charter",
+        "SIDN/ietf-epp-restful-json",
+        "SIDN/ietf-epp-restful-transport"
+      ],
+      "topic": "RPP Weekly GitHub Activity Summary"
+    },
+    "SIDN/ietf-wg-rpp-charter": {
+      "events": [
+        "issues.opened",
+        "issues.closed",
+        "issue_comment.created",
+        "pull_request.opened"
+      ],
+      "branches": {
+        "main": [
+          "push"
+        ]
+      }
+    }
+  }
 }
